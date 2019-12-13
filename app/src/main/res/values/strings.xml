@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Login Register</string>
+    <string name="text_accounts">Todas las cuentas</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_correo">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_confirm_password">Confirmar contraseña</string>
+    <string name="text_login">Entrar</string>
+    <string name="text_register">Registrar</string>
+    <string name="error_message_name">Ingresa tu nombre completo!</string>
+    <string name="error_message_email">Ingresa un correo valido</string>
+    <string name="error_message_age">Ingresa tu edad</string>
+    <string name="error_message_password">Ingresa la contraseña</string>
+    <string name="success_message">Registro correcto!</string>
+    <string name="text_not_member">¿Sin cuenta? Crea una aqui!</string>
+    <string name="text_already_member">¿Tienes cuenta? Inicia sesion!</string>
+    <string name="error_email_exists">El correo ya existe!!</string>
+    <string name="error_password_match">La contraseña es incorrecta!</string>
+    <string name="error_pass_or_email">Correo o contraseña incorrecta</string>
+    <string name="action_configuracion">Settings</string>
+    <string name="txt_hola">Hello,</string>
+    <string name="text_title">Android Tutorials Hub</string>
+</resources>

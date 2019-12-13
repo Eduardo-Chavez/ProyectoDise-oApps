@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utng.app"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/logo_round"
+        android:label="World Sports"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="mx.edu.utng.WorldSports.Basket" />
+        <activity android:name="mx.edu.utng.WorldSports.Futbol" />
+        <activity android:name="mx.edu.utng.WorldSports.AcercaActivity" />
+        <activity android:name="mx.edu.utng.WorldSports.InicioActivity" />
+        <!--
+        <activity android:name=".SplashScreenActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity android:name="mx.edu.utng.WorldSports.MainActivity" />
+        <activity
+            android:name="mx.edu.utng.WorldSports.activities.LoginActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mx.edu.utng.WorldSports.activities.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="mx.edu.utng.WorldSports.activities.UsersListActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

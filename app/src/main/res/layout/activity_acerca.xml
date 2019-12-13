@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c5cae9"
+    app:layout_insetEdge="start"
+    tools:context="mx.edu.utng.WorldSports.AcercaActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="17dp"
+        android:text="Acerca de World Sport's"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/parrafo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="16dp"
+        android:text="Esta aplicacion esta orientada a las personas con pasion a los deportes, el principal proposito es informar a los fanaticos acerca de las noticias de su deporte favorito."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/parrafo1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="11dp"
+        android:text="Aplicacion elaborada por:"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/parrafo2"
+        android:layout_width="wrap_content"
+        android:layout_height="202dp"
+        android:layout_below="@+id/t2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="169dp"
+        android:text="García Martínez José Antonio\n 1218100524\nGómez Sánchez Juan Jesus \n1218100407 \nGodinez Chavez Hector Eduardo \n1218100504 \n Salgado Villanueva Luis Axel \n1218101135"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

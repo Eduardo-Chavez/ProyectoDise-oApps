@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#324373"
+    tools:context="mx.edu.utng.WorldSports.InicioActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="World Sport's"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    //TEXTO FUTBOL
+
+    //
+
+    // CUERPO BASKET
+    //TEXTO BASKET
+
+    //
+
+    /btn's
+
+
+    <ImageView
+android:id="@+id/btnFut"
+android:layout_width="125dp"
+android:layout_height="119dp"
+android:layout_marginTop="64dp"
+android:layout_marginEnd="196dp"
+android:scaleType="centerInside"
+android:src="@drawable/foot"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.466"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/textView"
+tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btnFut2"
+        android:layout_width="125dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="196dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/volante2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/btnFut3"
+        android:layout_width="125dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="232dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/tenis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btnBasquet"
+        android:layout_width="125dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="64dp"
+
+        android:scaleType="centerInside"
+        android:src="@drawable/basket"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btnBasquet2"
+        android:layout_width="125dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="400dp"
+
+        android:scaleType="centerInside"
+        android:src="@drawable/ciclismo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btnBasquet3"
+        android:layout_width="125dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="400dp"
+
+        android:scaleType="centerInside"
+        android:src="@drawable/beisbol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnRedondo"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:text="Acerca de la App"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.924" />
+</androidx.constraintlayout.widget.ConstraintLayout>
